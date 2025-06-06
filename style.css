@@ -377,3 +377,56 @@ a {
     color: #5a5a5a;
     font-size: 0.9rem;
 }
+
+.popular-box{
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.popular-box-img{
+    width: 100%;
+    height: 120px;
+    background: #fff8f8;
+    padding: 10px;
+    border-radius: 6px;
+}
+.popular-box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.popular-box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+    width: 100%;
+}
+.popular-box-text a{
+    color:#363636;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.popular-box-text .p-category{
+    color: #8b3d74;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.popular-box-text .p-price{
+    color: #1d1d1d;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.popular-box-text .p-price del{
+    color: #8b3d74;
+    font-size: 1rem;
+}
+.popular-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 30px;
+}
