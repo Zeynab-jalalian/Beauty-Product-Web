@@ -353,3 +353,27 @@ a {
    font-size: 1.4rem;
    line-height: 1.8rem;
 }
+
+#popular-product{
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+}
+.popular-heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafafa;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.popular-heading h3{
+    font-size: 1.8rem;
+    color: #1d1d1d;
+    font-weight: 900;
+}
+.popular-heading a{
+    color: #5a5a5a;
+    font-size: 0.9rem;
+}
