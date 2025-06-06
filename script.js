@@ -9,10 +9,10 @@ $(document).ready(function () {
     $('#new-p-heading li').click(function () {
         const value = $(this).attr('data-filter');
         if (value == 'All') {
-            $('.new-product-box').show('0');
+            $('.new-product-box').show('1000');
         } else {
-            $('.new-product-box').not('.' + value).hide('0');
-            $('.new-product-box').filter('.' + value).show('0');
+            $('.new-product-box').not('.' + value).hide('1000');
+            $('.new-product-box').filter('.' + value).show('1000');
         }
     })
 })
