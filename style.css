@@ -573,3 +573,18 @@ footer {
     width: 90%;
     margin: auto;
 }
+.footer-bottom span{
+    font-size: 0.9eem;
+    color: #252525;
+}
+
+
+@media(max-width:1100px){
+    
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+}
