@@ -430,3 +430,38 @@ a {
     grid-gap: 40px;
     margin-top: 30px;
 }
+
+#partner{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+}
+.partner-heading h3{
+    font-size: 1.5rem;
+    color: #202020;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    grid-gap:15px
+}
+.logo-container img{
+    height: 50px;
+    cursor: pointer;
+    object-position: center;
+    object-fit: contain;
+    filter: grayscale(1);
+    opacity: 0.3;
+    transition: all ease 0.3s;
+}
+.logo-container img:hover{
+    opacity: 1;
+    filter: grayscale(0);
+}
